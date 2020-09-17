@@ -1,393 +1,306 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title>Facebook Theme Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="assets/css/styles.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="wrapper">
+			<div class="box">
+				<div class="row row-offcanvas row-offcanvas-left">
+					
+					<!-- sidebar -->
+					<div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+					  
+						<ul class="nav">
+							<li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+						</ul>
+					   
+						<ul class="nav hidden-xs" id="lg-menu">
+							<li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a></li>
+							<li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
+							<li><a href=""><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
+						</ul>
+						<ul class="list-unstyled hidden-xs" id="sidebar-footer">
+							<li>
+							  <a href="http://usebootstrap.com/theme/facebook"><h3>Bootstrap</h3> <i class="glyphicon glyphicon-heart-empty"></i> Bootply</a>
+							</li>
+						</ul>
+					  
+						<!-- tiny only nav-->
+					  <ul class="nav visible-xs" id="xs-menu">
+							<li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
+							<li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+							<li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
+							<li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+						</ul>
+					  
+					</div>
+					<!-- /sidebar -->
+				  
+					<!-- main right col -->
+					<div class="column col-sm-10 col-xs-11" id="main">
+						
+						<!-- top nav -->
+						<div class="navbar navbar-blue navbar-static-top">  
+							<div class="navbar-header">
+							  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+							  <a href="/index.html" class="navbar-brand logo"> <img src="/assets/images/logo.png" width="100%"> </a>
+							</div>
+							<nav class="collapse navbar-collapse" role="navigation">
+							<ul class="nav navbar-nav">
+							  <li>
+								<a href="/index.html"><i class="glyphicon glyphicon-home"></i> Home</a>
+							  </li>
+							  <li>
+								<a href="#postModal" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Post</a>
+							  </li>
+							  <li>
+								<a href="#"><span class="badge">badge</span></a>
+							  </li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+							  <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
+								<ul class="dropdown-menu">
+								  <li><a href="">More</a></li>
+								  <li><a href="">More</a></li>
+								  <li><a href="">More</a></li>
+								  <li><a href="">More</a></li>
+								  <li><a href="">More</a></li>
+								</ul>
+							  </li>
+							</ul>
+							</nav>
+						</div>
+						<!-- /top nav -->
+					  
+						<div class="padding">
+							<div class="full col-sm-9">
+							  
+								<!-- content -->                      
+								<div class="row">
+								  
+								 <!-- main col left --> 
+								 <div class="col-sm-5">
+								   
+									  <div class="panel panel-default">
+										<div class="panel-thumbnail"><img src="assets/img/bg_5.jpg" class="img-responsive"></div>
+										<div class="panel-body">
+										  <p class="lead">Urbanization</p>
+										  <p>45 Followers, 13 Posts</p>
+										  
+										  <p>
+											<img src="assets/img/uFp_tsTJboUY7kue5XAsGAs28.png" height="28px" width="28px">
+										  </p>
+										</div>
+									  </div>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Diego Velázquez">
-    <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+								   
+									  <div class="panel panel-default">
+										<div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Bootstrap Examples</h4></div>
+										  <div class="panel-body">
+											<div class="list-group">
+											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Modal / Dialog</a>
+											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Datetime Examples</a>
+											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Data Grids</a>
+											</div>
+										  </div>
+									  </div>
+								   
+									  <div class="well"> 
+										   <form class="form-horizontal" role="form">
+											<h4>What's New</h4>
+											 <div class="form-group" style="padding:14px;">
+											  <textarea class="form-control" placeholder="Update your status"></textarea>
+											</div>
+											<button class="btn btn-primary pull-right" type="button">Post</button><ul class="list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
+										  </form>
+									  </div>
+								   
+									  <div class="panel panel-default">
+										 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>More Templates</h4></div>
+										  <div class="panel-body">
+											<img src="assets/img/150x150.gif" class="img-circle pull-right"> <a href="#">Free @Bootply</a>
+											<div class="clearfix"></div>
+											There a load of new free Bootstrap 3
+		 ready templates at Bootply. All of these templates are free and don't 
+		require extensive customization to the Bootstrap baseline.
+											<hr>
+											<ul class="list-unstyled"><li><a href="http://usebootstrap.com/theme/facebook">Dashboard</a></li><li><a href="http://usebootstrap.com/theme/facebook">Darkside</a></li><li><a href="http://usebootstrap.com/theme/facebook">Greenfield</a></li></ul>
+										  </div>
+									  </div>
+								   
+									  <div class="panel panel-default">
+										<div class="panel-heading"><h4>What Is Bootstrap?</h4></div>
+										<div class="panel-body">
+											Bootstrap is front end frameworkto 
+		build custom web applications that are fast, responsive &amp; intuitive.
+		 It consist of CSS and HTML for typography, forms, buttons, tables, 
+		grids, and navigation along with custom-built jQuery plug-ins and 
+		support for responsive layouts. With dozens of reusable components for 
+		navigation, pagination, labels, alerts etc..                          </div>
+									  </div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+										
+								   
+								  </div>
+								  
+								  <!-- main col right -->
+								  <div class="col-sm-7">
+									   
+										<div class="well"> 
+										   <form class="form">
+											<h4>Sign-up</h4>
+											<div class="input-group text-center">
+											<input class="form-control input-lg" placeholder="Enter your email address" type="text">
+											  <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+											</div>
+										  </form>
+										</div>
+							  
+									   <div class="panel panel-default">
+										 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Bootply Editor &amp; Code Library</h4></div>
+										  <div class="panel-body">
+											<p><img src="assets/img/150x150.gif" class="img-circle pull-right"> <a href="#">The Bootstrap Playground</a></p>
+											<div class="clearfix"></div>
+											<hr>
+											Design, build, test, and prototype 
+		using Bootstrap in real-time from your Web browser. Bootply combines the
+		 power of hand-coded HTML, CSS and JavaScript with the benefits of 
+		responsive design using Bootstrap. Find and showcase Bootstrap-ready 
+		snippets in the 100% free Bootply.com code repository.
+										  </div>
+									   </div>
+									
+									   <div class="panel panel-default">
+										 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Stackoverflow</h4></div>
+										  <div class="panel-body">
+											<img src="assets/img/150x150.gif" class="img-circle pull-right"> <a href="#">Keyword: Bootstrap</a>
+											<div class="clearfix"></div>
+											<hr>
+											
+											<p>If you're looking for help with Bootstrap code, the <code>twitter-bootstrap</code> tag at <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap">Stackoverflow</a> is a good place to find answers.</p>
+											
+											<hr>
+											<form>
+											<div class="input-group">
+											  <div class="input-group-btn">
+											  <button class="btn btn-default">+1</button><button class="btn btn-default"><i class="glyphicon glyphicon-share"></i></button>
+											  </div>
+											  <input class="form-control" placeholder="Add a comment.." type="text">
+											</div>
+											</form>
+											
+										  </div>
+									   </div>
 
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
-
-    <!-- Ionic icons-->
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images//favicon.png" />
-
-    <title>SocialFriends
-    </title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <img src="assets/images/logo.png" class="logo-brand" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="assets/images/menu.svg">
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#posts">Posts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section id="hero">
-        <duv class="container">
-            <div class="content-center">
-                <h1 class="mt-5">SocialFriends LifePost</h1>
-                <p>En esta red social solo los admins pueden publicar, pero los demas pueden comentar</p>
-                <a href="#" class="btn btn-secondary mt-4">Explore now <img src="assets/images/arrow-right.svg" class="ml-2"></a>
-            </div>
-        </duv>
-    </section>
-
-    <section id="posts">
-        <div class="row mb-2">
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">Post 1</h3>
-                  <div class="mb-1 text-muted">16/09/2020</div>
-                  <p class="card-text mb-auto">ERROR: No se ha publicado</p>
-                  <a href="#" class="stretched-link">Ver mas</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-success">Design</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-1 text-muted">Nov 11</div>
-                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-
-    <section id="team" class="bgLightGrey">
-        <div class="container">
-            <div class="content-center">
-                <h2>Keep calm, you're in a <b>good company</b></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
-                    aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
-                    nesciunt error ut quidem autem.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Michelle B. Rowe</h5>
-                            <span>Creative director</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-01.jpg" class="img-fluid" alt="member 1">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Veronica D. Martin</h5>
-                            <span>Lead designer</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-02.jpg" class="img-fluid" alt="member 2">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Richard A. Hair</h5>
-                            <span>Lead developer</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-03.jpg" class="img-fluid" alt="member 3">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="divider">
-        <div class="container">
-            <div class="content-center">
-                <h2>Pricing built for <b>every business</b></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
-                    aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
-                    nesciunt error ut quidem autem.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-light">
-                            <h4>Starter solution</h4>
-                            <h2>$89 <span>/ per month</span></h2>
-                            <h4>Per 1 Million Data Points</h4>
-                            <ul class="mt-3">
-                                <li>Integration with Google Analytics</li>
-                                <li>Online payments</li>
-                                <li>Solution Architect</li>
-                                <li>Dedicated Support</li>
-                            </ul>
-                            <a href="#" class="btn btn-primary full-width mt-4">Start now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-dark">
-                            <h4>Enterprise solution</h4>
-                            <h2>$139 <span>/ per month</span></h2>
-                            <h4>Per 1 Million Data Points</h4>
-                            <ul class="mt-3">
-                                <li>Integration with Google Analytics</li>
-                                <li>Online payments</li>
-                                <li>Solution Architect</li>
-                                <li>Dedicated Support</li>
-                            </ul>
-                            <a href="#" class="btn btn-alternate full-width mt-4">Start now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonial" class="divider">
-        <div class="container">
-            <div class="content-center">
-                <h2>A few words from <b>our clients…</b></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
-                    aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
-                            </p>
-                            <div class="rating">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-3 col-3">
-                                        <img src="assets/images/member-01.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-9 col-9">
-                                        <h6>Marissa Mayer</h6>
-                                        <span>Yahoo CEO</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
-                            <div class="rating">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-3 col-3">
-                                        <img src="assets/images/member-02.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-9 col-9">
-                                        <h6>Marry Barra</h6>
-                                        <span>General Motors CEO</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
-                            <div class="rating">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-3 col-3">
-                                        <img src="assets/images/member-03.jpg" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-9 col-9">
-                                        <h6>Elon Musk</h6>
-                                        <span>Tesla CEO</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <div class="control-button">
-                        <img src="assets/images/arrow-borderless-left.svg" class="img-fluid">
-                    </div>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <div class="control-button">
-                        <img src="assets/images/arrow-borderless-right.svg" class="img-fluid">
-                    </div>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-4">
-                    <h3>Ready to accelerate your project? <b>just let us know.</b></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam
-                        mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
-                        contact@smartagency.com</p>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Company name">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="number" class="form-control" id="" placeholder="Phone number (optional)">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <a href="" class="btn btn-primary full-width">Contact sales</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+									   <div class="panel panel-default">
+										 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Portlet Heading</h4></div>
+										  <div class="panel-body">
+											<ul class="list-group">
+											<li class="list-group-item">Modals</li>
+											<li class="list-group-item">Sliders / Carousel</li>
+											<li class="list-group-item">Thumbnails</li>
+											</ul>
+										  </div>
+									   </div>
+									
+									   <div class="panel panel-default">
+										<div class="panel-thumbnail"><img src="assets/img/bg_4.jpg" class="img-responsive"></div>
+										<div class="panel-body">
+										  <p class="lead">Social Good</p>
+										  <p>1,200 Followers, 83 Posts</p>
+										  
+										  <p>
+											<img src="assets/img/photo.jpg" height="28px" width="28px">
+											<img src="assets/img/photo.png" height="28px" width="28px">
+											<img src="assets/img/photo_002.jpg" height="28px" width="28px">
+										  </p>
+										</div>
+									  </div>
+									
+								  </div>
+							   </div><!--/row-->
+							  
+								<div class="row">
+								  <div class="col-sm-6">
+									<a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
+								  </div>
+								</div>
+							  
+								<div class="row" id="footer">    
+								  <div class="col-sm-6">
+									
+								  </div>
+								  <div class="col-sm-6">
+									<p>
+									<a href="#" class="pull-right">Copyright 2020 Programmingtrue & SocialFriends</a>
+									</p>
+								  </div>
+								</div>
+							</div><!-- /col-9 -->
+						</div><!-- /padding -->
+					</div>
+					<!-- /main -->
+				  
+				</div>
+			</div>
+		</div>
 
 
-    <footer class="bgDark">
-        <div class="container">
-            <h3>SocialFriends</h3>
-            <ul class="list-inline">
-                <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
-                <li class="list-inline-item footer-menu"><a href="#">Portfolio</a></li>
-                <li class="list-inline-item footer-menu"><a href="#">About us</a></li>
-                <li class="list-inline-item footer-menu"><a href="#">Pricing</a></li>
-                <li class="list-inline-item footer-menu"><a href="#">Contact</a></li>
-            </ul>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-            </ul>
-            <small>©2020 All Rights Reserved. Created by <a href="https://themesbootstrap.com.mx/" class="font-weight-bold" target="_blank"
-                    rel="noopener">Themes Bootstrap</a></small>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+		<!--post modal-->
+		<div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+		  <div class="modal-dialog">
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
+					Update Status
+			  </div>
+			  <div class="modal-body">
+				  <form class="form center-block">
+					<div class="form-group">
+					  <textarea class="form-control input-lg" autofocus="" placeholder="What do you want to share?"></textarea>
+					</div>
+				  </form>
+			  </div>
+			  <div class="modal-footer">
+				  <div>
+				  <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
+					<ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
+				  </div>	
+			  </div>
+		  </div>
+		  </div>
+		</div>
+        
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+			$('[data-toggle=offcanvas]').click(function() {
+				$(this).toggleClass('visible-xs text-center');
+				$(this).find('i').toggleClass('glyphicon-chevron-right glyphicon-chevron-left');
+				$('.row-offcanvas').toggleClass('active');
+				$('#lg-menu').toggleClass('hidden-xs').toggleClass('visible-xs');
+				$('#xs-menu').toggleClass('visible-xs').toggleClass('hidden-xs');
+				$('#btnShow').toggle();
+			});
+        });
+        </script>
+</body></html>
