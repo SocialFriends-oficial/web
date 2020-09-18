@@ -104,24 +104,25 @@
 									  <div class="panel panel-default">
 										<div class="panel-body">
 										  <p class="lead">Nuevo Post</p>
-										  <form name="nuevo-post" method="POST" data-netlify="true">
+										  <form name="nuevo-post" method="POST" data-netlify="true" data-netlify-recaptcha="true">
 											<p>
-											  <label>Your Name: <input type="text" name="name" /></label>   
+											  <label>Nombre del post: <input type="text" name="nombre-del-post" /></label>   
 											</p>
 											<p>
-											  <label>Your Email: <input type="email" name="email" /></label>
+											  <label>Email de contacto: <input type="email" name="email-del-post" /></label>
 											</p>
 											<p>
-											  <label>Your Role: <select name="role[]" multiple>
-												<option value="leader">Leader</option>
-												<option value="follower">Follower</option>
+											  <label>Visibilidad: <select name="visibilidad[]" multiple>
+												<option value="publico">Publico (en la pagina Posts)</option>
+												<option value="privado">Privado (por link)</option>
 											  </select></label>
 											</p>
 											<p>
-											  <label>Message: <textarea name="message"></textarea></label>
+											  <label>Contenido: <textarea name="contenido"></textarea></label>
 											</p>
 											<p>
-											  <button type="submit">Send</button>
+												<div data-netlify-recaptcha="true"></div>
+												<button type="submit">Enviar</button>
 											</p>
 										  </form>
 										</div>
