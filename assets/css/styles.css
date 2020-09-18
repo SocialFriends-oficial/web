@@ -85,10 +85,10 @@ hr {
    color:#efefef;
 }
 
-.navbar-blue .dropdown-menu li a {color:#2A4888;}
-.navbar-blue .dropdown-menu li > a {padding-left:30px;}
+.navbar-blue .dropdown-menu .menu-login ul li a {color:#2A4888;}
+.navbar-blue .dropdown-menu .menu-login ul li > a {padding-left:30px; margin: 2px;}
 
-.navbar-blue li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
+.navbar-blue .menu-login ul li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
    background-color:#2A4888;
    color:#fff;
 }
@@ -285,3 +285,4 @@ small.text-muted {
     padding-left:3px;
   }
 }
+
