@@ -82,11 +82,11 @@ hr {
 }
 
 .navbar-blue li > a,.navbar-toggle  {
-   color:rgb(134, 134, 134);
+   color:#fff;
 }
 
-.navbar-blue .dropdown-menu ul li a {color: rgb(134, 134, 134); }
-.netlify-identity-user-details 
+.navbar-blue .dropdown-menu ul li a {color: rgba(134, 134, 134); }
+.netlify-identity-user-details {color: rgb(134, 134, 134);}
 .netlify-identity-signup{color: rgb(134, 134, 134);}
 .navbar-blue .dropdown-menu ul li > a {padding-left:30px; margin: 2px;}
 

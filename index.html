@@ -103,12 +103,13 @@
 								 <!-- main col left -->								   
 									  <div id="bar-container">
 										<div id="bar">
-										  <form name="nuevo-post" method="POST" data-netlify="true" id="section form">
+										  <form name="nuevo-post" method="POST" data-netlify="true" id="section form"netlify-honeypot="bot-field">
+												<input name="bot-field" type="text" class="section text" placeholder="DEJAR VACIO"/>
 												<input name="texto" type="text" class="section text" placeholder="Escribe algo..."></input>
-											  <select name="visibilidad[]" class="section select">
-												<option value="publico">Publico (en la pagina Posts)</option>
-												<option value="privado">Privado (por link)</option>
-											  </select>
+												<select name="visibilidad[]" class="section select">
+													<option value="publico">Publico (en la pagina Posts)</option>
+													<option value="privado">Privado (por link)</option>
+												</select>
 												<button type="submit" class="section button"><i class="fas fa-paper-plane"></i></button>
 										  </form>
 										</div>
