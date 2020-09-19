@@ -85,15 +85,15 @@ hr {
    color:#fff;
 }
 
-.navbar-blue .dropdown-menu ul li a {color:#2A4888;}
-.netlify-identity-user-details {color: #2A4888;}
+.navbar-blue .dropdown-menu ul li a {color:#fff;}
+.netlify-identity-user-details {color: #fff;}
+
 .navbar-blue .dropdown-menu ul li > a {padding-left:30px; margin: 2px;}
 
 .navbar-blue ul li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
    background-color:#2A4888;
-   color:#fff;
+   color:#ccc;
 }
-
 #main {
    background-color:#e9eaed;
    padding-left:0;

@@ -12,7 +12,9 @@
 		<link href="assets/css/styles.css" rel="stylesheet">
 		<link rel="icon" href="/assets/images/favicon.ico">
 		<script src="https://d33wubrfki0l68.cloudfront.net/js/850db0f8f3e16fcfe260f5445fa0fda1cb527c0e/netlify-identity-widget.js"></script>
-    </head>
+		<script src="https://kit.fontawesome.com/46fdf1b6fa.js" crossorigin="anonymous"></script>
+		<link href="/assets/css/bar.css" rel="stylesheet"
+	</head>
     
     <body>
         
@@ -80,7 +82,11 @@
 							  <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
 									<div class="dropdown-menu">
-  <div data-netlify-identity-menu></div>
+										<div class="multiple-buttons">
+												<div data-netlify-identity-menu="">
+
+											</div>
+										</div>
 									</div>
 							  </li>
 							</ul>
@@ -94,48 +100,19 @@
 								<!-- content -->                      
 								<div class="row">
 								  
-								 <!-- main col left --> 
-								 <div class="col-sm-5">
-								   
-									  <div class="panel panel-default">
-										<div class="panel-body">
-										  <p class="lead">Nuevo Post</p>
-										  <form name="nuevo-post" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-											<p>
-												<label>Email de contacto: <input type="email" name="email-del-post" /></label>
-											</p>
-											<p>
-											  <label>Nombre del post: <input type="text" name="nombre-del-post" /></label>   
-											</p>
-											<p>
-											  <label>Visibilidad: <select name="visibilidad[]" multiple>
+								 <!-- main col left -->								   
+									  <div id="bar-container">
+										<div id="bar">
+										  <form name="nuevo-post" method="POST" data-netlify="true" id="section form">
+												<input name="texto" type="text" class="section text" placeholder="Escrive algo..."></input>
+											  <select name="visibilidad[]" multiple class="section select">
 												<option value="publico">Publico (en la pagina Posts)</option>
 												<option value="privado">Privado (por link)</option>
-											  </select></label>
-											</p>
-											<p>
-											  <label>Contenido: <textarea name="contenido"></textarea></label>
-											</p>
-											<p>
-												<div data-netlify-recaptcha="true"></div>
-												<button type="submit">Enviar</button>
-											</p>
+											  </select>
+												<button type="submit" class="section button"><i class="fas fa-paper-plane"></i></button>
 										  </form>
 										</div>
 									  </div>
-
-								   
-									  <div class="panel panel-default">
-										<div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Bootstrap Examples</h4></div>
-										  <div class="panel-body">
-											<div class="list-group">
-											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Modal / Dialog</a>
-											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Datetime Examples</a>
-											  <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Data Grids</a>
-											</div>
-										  </div>
-									  </div>
-								   
 									  <div class="well"> 
 										   <form class="form-horizontal" role="form">
 											<h4>What's New</h4>
