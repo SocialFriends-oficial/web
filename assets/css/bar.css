@@ -6,6 +6,7 @@
     padding: 7px;
     width: 100%;
     min-width: 300px;
+    min-height: 50px;
 }
 
 #bar:hover{
@@ -17,13 +18,14 @@
     vertical-align: middle;
 }
 
-#bar .section.text {
-    width: calc(70% - 35px - 114px - 15px);
-}
 #bar .section.select {
     padding-left: 7px;
     width: 230px;
     height: 50px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
 }
 
 
@@ -38,30 +40,22 @@
     background: transparent;
     outline: none;
     font-size: 14px;
-    width: 100%;
+    width: calc(90% - 35px - 114px - 15px);
 }
 
-#bar button{
-    border: 0;
-    background: transparent;
-    outline: none;
-    font-size: 24px;
-    width: 100%;
-}
-
-#bar select {
-border: 0;
-background: transparent;
-outline: none;
-font-size: 14px;
-width: 100%;
-}
 
 #bar button:hover{
     color: rgb(129, 129, 129);
 }
 
 #bar .section.button{
-    width: 14px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    width: 26px;
+    height: 26px;
+    padding: 3px;
+    float: right;
 }
 
