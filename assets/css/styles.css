@@ -82,17 +82,16 @@ hr {
 }
 
 .navbar-blue li > a,.navbar-toggle  {
-   color:#fff;
+   color:rgb(134, 134, 134);
 }
 
-.navbar-blue .dropdown-menu ul li a {color:#fff;}
-.netlify-identity-user-details {color: #fff;}
-
+.navbar-blue .dropdown-menu ul li a {color: rgb(134, 134, 134); }
+.netlify-identity-user-details 
+.netlify-identity-signup{color: rgb(134, 134, 134);}
 .navbar-blue .dropdown-menu ul li > a {padding-left:30px; margin: 2px;}
 
 .navbar-blue ul li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
-   background-color:#2A4888;
-   color:#ccc;
+   color:rgba(134, 134, 134, 0.534);
 }
 #main {
    background-color:#e9eaed;
