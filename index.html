@@ -5,15 +5,10 @@
         <meta charset="utf-8">
         <title>SocialFriends</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="assets/css/bootstrap.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-		<link href="assets/css/styles.css" rel="stylesheet">
+        <link href="/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link rel="icon" href="/assets/images/favicon.ico">
-		<script src="https://d33wubrfki0l68.cloudfront.net/js/850db0f8f3e16fcfe260f5445fa0fda1cb527c0e/netlify-identity-widget.js"></script>
-		<script src="https://kit.fontawesome.com/46fdf1b6fa.js" crossorigin="anonymous"></script>
-		<link href="/assets/css/bar.css" rel="stylesheet"
+		<link href="/assets/css/bar.css" rel="stylesheet">
 	</head>
     
     <body>
@@ -30,10 +25,18 @@
 						</ul>
 					   
 						<ul class="nav hidden-xs" id="lg-menu">
-							<li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a></li>
-							<li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
-							<li><a href=""><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
+							<li class="active"><a href="/index.html"><i class="fas fa-home"></i>Inicio</a></li>
+							<li><a href=""><i class="fas fa-newspaper"></i> Noticias</a></li>
+							<li><a href=""><i class="fas fa-life-ring"></i> FAQ Externo</a></li>
+							<li><a href=""><i class="fas fa-code"></i> Portal de desarollador</a></li>
+							<li><a href=""><i class="fas fa-user-tie"></i> El equipo</a></li>
+						</ul>
+						<br>
+						<h6>Acessos directos</h6>
+						<ul class="nav hidden-xs" id="lg-menu">
+							<li><a href=""><i class="fas fa-laptop-code"></i> DeVs (PTrue)</a></li>
+							<li><a href=""><i class="fas fa-code"></i> Portal de desarollador</a></li>
+							<li><a href=""><i class="fas fa-code"></i> Portal de desarollador</a></li>
 						</ul>
 						<ul class="list-unstyled hidden-xs" id="sidebar-footer">
 							<li>
@@ -43,10 +46,7 @@
 					  
 						<!-- tiny only nav-->
 					  <ul class="nav visible-xs" id="xs-menu">
-							<li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
-							<li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
-							<li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
-							<li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+						<li class="active"><a href="/index.html"><i class="fas fa-home"></i></a></li>
 						</ul>
 					  
 					</div>
@@ -106,8 +106,8 @@
 											<input name="bot-field" type="text" class="section bot hidden" placeholder="DEJAR VACIO"/>
 											<input name="texto" type="text" class="section text" placeholder="Escribe algo..."></input>
 											<select name="visibilidad[]" class="section select">
-												<option value="publico">Publico (en la pagina Posts)</option>
-												<option value="privado">Privado (por link)</option>
+												<option value="publico"><i class="fas fa-globe-americas"></i> Publico</option>
+												<option value="privado"><i class="fas fa-lock"></i> Privado (OCULTO)</option>
 											</select>
 											<button type="submit" class="section button "><i class="fas fa-paper-plane"></i></button>
 										</form>
@@ -244,32 +244,9 @@
 			</div>
 		</div>
 
-
-		<!--post modal-->
-		<div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-		  <div class="modal-dialog">
-		  <div class="modal-content">
-			  <div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
-					Update Status
-			  </div>
-			  <div class="modal-body">
-				  <form class="form center-block">
-					<div class="form-group">
-					  <textarea class="form-control input-lg" autofocus="" placeholder="What do you want to share?"></textarea>
-					</div>
-				  </form>
-			  </div>
-			  <div class="modal-footer">
-				  <div>
-				  <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
-					<ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
-				  </div>	
-			  </div>
-		  </div>
-		  </div>
-		</div>
-        
+		<!-- Scripts -->
+        <script src="https://d33wubrfki0l68.cloudfront.net/js/850db0f8f3e16fcfe260f5445fa0fda1cb527c0e/netlify-identity-widget.js"></script>
+		<script src="https://kit.fontawesome.com/46fdf1b6fa.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="assets/js/jquery.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
         <script type="text/javascript">
