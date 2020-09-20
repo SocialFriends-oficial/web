@@ -9,6 +9,7 @@
 		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link rel="icon" href="/assets/images/favicon.ico">
 		<link href="/assets/css/bar.css" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/css/dark.css">
 	</head>
     
     <body>
@@ -69,19 +70,24 @@
 							<nav class="collapse navbar-collapse" role="navigation">
 							<ul class="nav navbar-nav">
 							  <li>
-								<a href="/index.html"><i class="glyphicon glyphicon-home"></i> Home</a>
+								<a href="/index.html"><i class="fas fa-home"></i> Home</a>
 							  </li>
 							  <li>
-								<a href="#postModal" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Post</a>
+								<a href="#postModal" role="button" data-toggle="modal"><i class="fas fa-plus"></i> Post</a>
 							  </li>
 							  <li>
 								<a href="#"><span class="badge">badge</span></a>
 							  </li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
+
 							  <li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user"></i></a>
 									<div class="dropdown-menu">
+										<button class="switch" id="switch">
+											<span><i class="fas fa-sun"></i></span>
+											<span><i class="fas fa-moon"></i></span>
+										</button>
 										<div class="multiple-buttons">
 												<div data-netlify-identity-menu="">
 
@@ -112,20 +118,20 @@
 											<button type="submit" class="section button "><i class="fas fa-paper-plane"></i></button>
 										</form>
 									</div>
+									<br>
 
-								   
-									  <div class="panel panel-default">
-										 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>More Templates</h4></div>
-										  <div class="panel-body">
-											<img src="assets/img/150x150.gif" class="img-circle pull-right"> <a href="#">Free @Bootply</a>
-											<div class="clearfix"></div>
-											There a load of new free Bootstrap 3
-		 ready templates at Bootply. All of these templates are free and don't 
-		require extensive customization to the Bootstrap baseline.
-											<hr>
-											<ul class="list-unstyled"><li><a href="http://usebootstrap.com/theme/facebook">Dashboard</a></li><li><a href="http://usebootstrap.com/theme/facebook">Darkside</a></li><li><a href="http://usebootstrap.com/theme/facebook">Greenfield</a></li></ul>
-										  </div>
-									  </div>
+									<div class="panel panel-default">
+										<div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>More Templates</h4></div>
+										<div class="panel-body">
+										<img src="assets/img/150x150.gif" class="img-circle pull-right"> <a href="#">Free @Bootply</a>
+										<div class="clearfix"></div>
+										There a load of new free Bootstrap 3
+		ready templates at Bootply. All of these templates are free and don't 
+	require extensive customization to the Bootstrap baseline.
+										<hr>
+										<ul class="list-unstyled"><li><a href="http://usebootstrap.com/theme/facebook">Dashboard</a></li><li><a href="http://usebootstrap.com/theme/facebook">Darkside</a></li><li><a href="http://usebootstrap.com/theme/facebook">Greenfield</a></li></ul>
+										</div>
+									</div>
 								   
 									  <div class="panel panel-default">
 										<div class="panel-heading"><h4>What Is Bootstrap?</h4></div>
@@ -245,6 +251,7 @@
 		</div>
 
 		<!-- Scripts -->
+		<script src="/assets/js/dark.js"></script>
         <script src="https://d33wubrfki0l68.cloudfront.net/js/850db0f8f3e16fcfe260f5445fa0fda1cb527c0e/netlify-identity-widget.js"></script>
 		<script src="https://kit.fontawesome.com/46fdf1b6fa.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="assets/js/jquery.js"></script>
