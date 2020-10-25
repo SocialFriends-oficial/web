@@ -155,8 +155,9 @@ hr {
 
 /* bootstrap overrides */
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
    font-weight:800;
+   color: #ffffff;
 }
 
 .navbar-toggle, .close {
@@ -197,7 +198,6 @@ h1,h2,h3 {
    background-color:#27ae60;
    color:#fff;
 }
-    
 .jumbotron {
   background-color:transparent;
 }
